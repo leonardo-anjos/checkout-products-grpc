@@ -1,0 +1,28 @@
+###
+POST http://localhost:3000/products
+Content-type: application/json
+{
+    "name": "product test",
+    "price": 10.02
+}
+
+###
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/products/2
+
+###
+PATCH http://localhost:3000/products/2
+Content-type: application/json
+{
+    "name": "update product",
+    "price": 10.03
+}
+
+###
+DELETE http://localhost:3000/products/1
+
+# PUT (fully) vs PATCH (partial)
+# 200 OK
+# 201 Created
