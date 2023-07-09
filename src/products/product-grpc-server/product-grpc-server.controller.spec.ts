@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ProductsGrpcServerController } from './products-grpc-server.controller';
+import { ProductsGrpcServerController } from './product-grpc-server.controller';
 
 describe('ProductsGrpcServerController', () => {
   let controller: ProductsGrpcServerController;
